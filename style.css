@@ -1,40 +1,93 @@
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif; /* Use modern font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark gray text */
 }
-header {
-    background: #007acc;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
-}
-header h1 {
-    margin: 0;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-main {
-    max-width: 800px;
-    margin: 20px auto;
+
+/* Container styling for consistent layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-footer {
+
+/* Header section styling */
+.header {
+    background: linear-gradient(90deg, #007ACC, #005BB5); /* Gradient background */
+    color: #fff; /* White text */
+    padding: 40px 20px;
     text-align: center;
-    padding: 10px;
-    background: #007acc;
-    color: #fff;
-    margin-top: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Large heading */
+    margin: 0 0 10px;
+}
+
+.header p {
+    font-size: 1.2rem; /* Subheading */
+    margin: 0 0 20px;
+}
+
+/* Navigation links */
+.header nav a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styling */
+.main-content {
+    padding: 40px 20px;
+}
+
+/* Section heading styling */
+.main-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #005BB5; /* Blue heading */
+}
+
+/* Paragraph styling */
+.main-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+.main-content ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.main-content ul li {
+    background: #e0f3ff; /* Light blue background */
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem;
+}
+
+/* Footer styling */
+.footer {
+    background: #005BB5; /* Blue footer background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
 }
