@@ -2,4 +2,4 @@ title: Avia BTS Website
 description: Weekly progress updates for Avia's project.
 baseurl: "" 
 url: "https://zoeyyyzheng.github.io/avia"
-theme: minima 
+theme: jekyll-theme-minimal
